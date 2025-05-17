@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Bonziworld </title>
+		<link rel="stylesheet" href="/static/js/jquery-ui.css"/>
+		<link rel="stylesheet" href="/static/98ui/style.css"/>
+		<link rel="stylesheet" href="/static/style.css"/>
+		<script src="static/js/socket.io.min.js"></script>
+		<script src="static/js/jquery-3.7.1.min.js"></script>
+		<script src="static/js/jquery-ui.min.js"></script>
+		<script src="static/js/speakClient.js"></script>
+		<script src="static/js/window.js"></script>
+		<script src="static/js/avatar.js"></script>
+		<script src="static/js/script.js"></script>
+	<body>
+		<div id="desktop"></div>
+		<div class="window toolbar" id="toolbar" style="display: none">
+			<button id="start-btn"> <b> Start </b> </button>
+			<div>&nbsp;</div>
+			<form id="msg-form" style="flex: 1">
+				<input type="text" name="message" style="box-sizing: border-box; width: 100%"/>
+			</form>
+		</div>
+		
+		<!-- Add Admin Login Link -->
+		<div id="admin-login-link" style="position: fixed; bottom: 5px; right: 5px; z-index: 9999;">
+			<a href="/admin" style="color: #c0c0c0; font-size: 10px; text-decoration: none;">Admin</a>
+		</div>
+	</body>
+</html>

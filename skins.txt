@@ -1,0 +1,9 @@
+red
+blue
+green
+yellow
+purple
+orange
+black
+pink
+pope 
